@@ -1,0 +1,41 @@
+<html></html>
+  <head>
+    <title>Vue Study</title>
+   <!--
+     开发环境版本，包含了有帮助的命令行警告
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+     生产环境版本，优化了尺寸和速度  -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> 
+  </head>
+
+  <body>
+
+   <div id="app">
+    <!-- 挂载点 -->
+    </div>
+
+
+
+   <script>
+     // 1. 创建一个Vue对象 ，对象里面传的是json形式的参数数据key value。 其中有vue自带的特殊关键字规则
+     
+      constMyapp=new Vue({
+        // 可以将模板的数据渲染到页面
+        template:'<h1> Hello Welcome ITRaiSan Channel </h1>',
+        
+      })
+      
+     // 2. 将Vue实例挂载到指定的地方 只能挂载一个地方
+      constMyapp.$mount('#app') 
+     
+   
+   </script>
+  
+  
+
+
+
+
+
+  </body>
+</html>
